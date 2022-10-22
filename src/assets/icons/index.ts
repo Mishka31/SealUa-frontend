@@ -1,0 +1,18 @@
+export { alert } from './components/alert';
+export { playButton } from './components/playButton';
+export { lock } from './components/lock';
+export { pencil } from './components/pencil';
+export { logo } from './components/logo';
+export { live } from './components/live';
+export { search } from './components/search';
+export { like } from './components/like';
+export { burger } from './components/burger';
+export { error } from './components/error';
+export { profile } from './components/profile';
+export { Facebook } from './components/social/facebook';
+export { Instagram } from './components/social/instagram';
+export { Twitter } from './components/social/twitter';
+export * from './components/eyes';
+export { arrowLeft } from './components/arrowLeft';
+export { Home } from './components/home';
+export { User } from './components/user';

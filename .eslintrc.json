@@ -35,7 +35,6 @@
     "no-console": "off",
     "no-await-in-loop": "error",
     "no-unused-vars": "warn",
-    "import/no-unresolved": "off",
     "no-debugger": "off",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-explicit-any": "off",
