@@ -11,8 +11,5 @@ export const color = {
   error: '#D62F2F',
   pink: '#E55074',
   purple: '#AB78FF',
-  darkGrey: '#333333',
-  whiteGrey: '#4F4F4F',
-  whiteGreyLight: '#F7F7F7',
-  veryDarkGrey: '#828282',
+  darkGrey: '#555',
 };

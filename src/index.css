@@ -18,6 +18,10 @@ body {
   font-family: 'Oswald-light';
   src: url('./assets/fonts/Oswald-Light.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Shadows Into Light';
+  src: url('./assets/fonts/ShadowsIntoLight.ttf') format('truetype');
+}
 
 p,
 h1,
