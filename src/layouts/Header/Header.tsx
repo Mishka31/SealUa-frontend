@@ -16,20 +16,20 @@ export const Header = () => {
             <span className={classes.aTitle}>A</span>
           </a>
           <ul>
-            <li>
+            <li className={classes.mobilItem}>
               <a href="tel:+380507620564">
                 <svg width="10" height="16">
                   <use href="./sprite.svg#icon-phone"></use>
                 </svg>
-                + 38 (050) 762 05 64
+                (050) 762 05 64
               </a>
             </li>
-            <li>
+            <li className={classes.mobilItem}>
               <a href="tel:+380931564327">
                 <svg width="10" height="16">
                   <use href="./sprite.svg#icon-phone"></use>
                 </svg>
-                + 38 (093) 156 43 27
+                (093) 156 43 27
               </a>
             </li>
           </ul>
@@ -69,9 +69,12 @@ const useStyles = createUseStyles({
       transition: 'text-shadow 0.3s',
     },
   },
+  mobilItem: {
+    listStyle: 'none',
+  },
   avatarContainer: {
     ...flex(),
-    fontFamily: 'cursive',
+    // fontFamily: 'cursive',
     alignItems: 'center',
   },
   nameTitle: {
