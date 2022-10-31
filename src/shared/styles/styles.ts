@@ -1,5 +1,4 @@
 export const mobileGradientBackground = 'linear-gradient(180deg, #000000 -10%, #2D0000 15%, #000000 60%)';
-export const screenWidth = window.screen.width;
 export const flexCenter = () => {
   return {
     display: 'flex',
@@ -24,6 +23,11 @@ export const flexStart = () => {
 export const flex = () => {
   return {
     display: 'flex',
+  };
+};
+export const textShadow = () => {
+  return {
+    textShadow: '0px 8px 12px rgba(153, 0, 0, 0.75)',
   };
 };
 export const flexCenterRow = () => {

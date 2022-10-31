@@ -12,4 +12,5 @@ export const color = {
   pink: '#E55074',
   purple: '#AB78FF',
   darkGrey: '#555',
+  blueUKR: 'rgb(40, 133, 255)',
 };
