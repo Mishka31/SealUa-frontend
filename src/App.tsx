@@ -10,7 +10,7 @@ import { Context } from './context';
 console.log('React 🔰', React.version);
 
 export const App = () => {
-  const [first, setfirst] = useState(0);
+  const [first, setfirst] = useState(window.screen.width);
   const getWindowWidth = () => {
     return Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
   };
