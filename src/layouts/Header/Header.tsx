@@ -160,6 +160,8 @@ export const Header = () => {
       </MenuItem>
     </Menu>
   );
+  console.log('Test', screenWidth);
+
   return (
     <header className={classes.root}>
       <Box sx={{ flexGrow: 1 }}>
@@ -167,9 +169,6 @@ export const Header = () => {
           position="static"
           sx={{
             padding: `${screenWidth > 992 ? '10px' : undefined} ${screenWidth < 992 ? '10%' : '15%'}`,
-            // paddingRight: screenWidth < 992 ? '10%' : '20%',
-            // paddingTop: screenWidth > 992 ? '10px' : undefined,
-            // paddingBottom: screenWidth > 992 ? '10px' : undefined,
           }}
         >
           <Toolbar>
